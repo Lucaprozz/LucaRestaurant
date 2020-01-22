@@ -28,57 +28,57 @@
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" >
                             Reserveren
                         </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item" href="{{ path('reserveren') }}">Reserveren</a>
-                            <a class="dropdown-item" href="{{ path('reservatie_indexdag') }}">Reserveringen vandaag</a>
-                        </div>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white" href="{{ path('categorie_index') }}">Bestellen</a>
-                    </li>
-                    <li class="nav-item dropdown">
+{#                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">#}
+{#                            <a class="dropdown-item" href="{{ path('reserveren') }}">Reserveren</a>#}
+{#                            <a class="dropdown-item" href="{{ path('reservatie_indexdag') }}">Reserveringen vandaag</a>#}
+{#                        </div>#}
+{#                    </li>#}
+{#                    <li class="nav-item">#}
+{#                        <a class="nav-link text-white" href="{{ path('categorie_index') }}">Bestellen</a>#}
+{#                    </li>#}
+{#                    <li class="nav-item dropdown">#}
 
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" >
-                            Admin taken
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item" href="{{ path('reservatie_index') }}">Reserveringen</a>
-                            <a class="dropdown-item" href="{{ path('product_index') }}">Producten</a>
-                            <a class="dropdown-item" href="{{ path('categorie_index') }}">Categorie</a>
-                            <a class="dropdown-item" href="{{ path('menu_index') }}">Menu</a>
-                            <a class="dropdown-item" href="{{ path('user_index') }}">Users</a>
-                            <a class="dropdown-item" href="{{ path('reservatie_tafel_index') }}">Reserverende tafels</a>
-                            <a class="dropdown-item" href="{{ path('tafel_index') }}">Tafels</a>
-                            <a class="dropdown-item" href="{{ path('bank_cart_index') }}">Bank gegevens</a>
-                            <a class="dropdown-item" href="{{ path('tijden_index') }}">Tijden</a>
-                        </div>
-                    </li>
-                </ul>
-            {% elseif is_granted('ROLE_MEDEWERKER') %}
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item ">
-                        <a class="nav-link text-white" href="{{ path('homepage') }}">Home <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white" href="{{ path('reserveren') }}">Reserveren</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white" href="{{ path('categorie_index') }}">Bestellen</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white" href="{{ path('contact') }}">Contact</a>
-                    </li>
-                </ul>
+{#                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" >#}
+{#                            Admin taken#}
+{#                        </a>#}
+{#                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">#}
+{#                            <a class="dropdown-item" href="{{ path('reservatie_index') }}">Reserveringen</a>#}
+{#                            <a class="dropdown-item" href="{{ path('product_index') }}">Producten</a>#}
+{#                            <a class="dropdown-item" href="{{ path('categorie_index') }}">Categorie</a>#}
+{#                            <a class="dropdown-item" href="{{ path('menu_index') }}">Menu</a>#}
+{#                            <a class="dropdown-item" href="{{ path('user_index') }}">Users</a>#}
+{#                            <a class="dropdown-item" href="{{ path('reservatie_tafel_index') }}">Reserverende tafels</a>#}
+{#                            <a class="dropdown-item" href="{{ path('tafel_index') }}">Tafels</a>#}
+{#                            <a class="dropdown-item" href="{{ path('bank_cart_index') }}">Bank gegevens</a>#}
+{#                            <a class="dropdown-item" href="{{ path('tijden_index') }}">Tijden</a>#}
+{#                        </div>#}
+{#                    </li>#}
+{#                </ul>#}
+{#            {% elseif is_granted('ROLE_MEDEWERKER') %}#}
+{#                <ul class="navbar-nav mr-auto">#}
+{#                    <li class="nav-item ">#}
+{#                        <a class="nav-link text-white" href="{{ path('homepage') }}">Home <span class="sr-only">(current)</span></a>#}
+{#                    </li>#}
+{#                    <li class="nav-item">#}
+{#                        <a class="nav-link text-white" href="{{ path('reserveren') }}">Reserveren</a>#}
+{#                    </li>#}
+{#                    <li class="nav-item">#}
+{#                        <a class="nav-link text-white" href="{{ path('categorie_index') }}">Bestellen</a>#}
+{#                    </li>#}
+{#                    <li class="nav-item">#}
+{#                        <a class="nav-link text-white" href="{{ path('contact') }}">Contact</a>#}
+{#                    </li>#}
+{#                </ul>#}
             {% elseif is_granted('ROLE_CUSTOMER') %}
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item ">
                         <a class="nav-link text-white" href="{{ path('homepage') }}">Home <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white" href="{{ path('reserveren') }}">Reserveren</a>
+{#                        <a class="nav-link text-white" href="{{ path('reserveren') }}">Reserveren</a>#}
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white" href="{{ path('contact') }}">Contact</a>
+{#                        <a class="nav-link text-white" href="{{ path('contact') }}">Contact</a>#}
                     </li>
                 </ul>
             {% else %}
@@ -87,7 +87,7 @@
                         <a class="nav-link text-white" href="{{ path('homepage') }}">Home <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white" href="{{ path('contact') }}">Contact</a>
+{#                        <a class="nav-link text-white" href="{{ path('contact') }}">Contact</a>#}
                     </li>
                 </ul>
             {% endif %}

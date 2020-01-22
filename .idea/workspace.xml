@@ -1,8 +1,93 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1a921d7b-7ccf-40f6-9bac-e82eac7b5444" name="Default" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="1a921d7b-7ccf-40f6-9bac-e82eac7b5444" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FolderTest/~$stallations.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lucarestaurant.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/BankCartController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/CartController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/CategorieController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/ContactController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/MenuController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/ProductController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/ReservatieController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/ReservatieTafelController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/TafelController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/TijdenController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Form/BankCartType.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Form/CategorieType.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Form/CheckoutFormType.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Form/MenuType.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Form/ProductType.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Form/RegistrationType.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Form/ReservatieTafelType.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Form/ReservatieType.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Form/TafelType.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Form/TijdenType.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Repository/BankCartRepository.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Repository/CategorieRepository.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Repository/MenuRepository.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Repository/ProductRepository.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Repository/ReservatieRepository.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Repository/ReservatieTafelRepository.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Repository/TafelRepository.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Repository/TijdenRepository.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/bank_cart/_delete_form.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/bank_cart/_form.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/bank_cart/edit.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/bank_cart/index.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/bank_cart/new.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/bank_cart/show.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/cart/checkout.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/cart/index.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/categorie/_delete_form.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/categorie/_form.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/categorie/edit.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/categorie/index.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/categorie/new.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/categorie/show.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/contact/email.txt.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/contact/index.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/menu/_delete_form.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/menu/_form.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/menu/edit.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/menu/index.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/menu/new.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/menu/show.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/product/_delete_form.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/product/_form.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/product/edit.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/product/index.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/product/new.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/product/show.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/reservatie/_delete_form.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/reservatie/_form.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/reservatie/edit.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/reservatie/index.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/reservatie/new.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/reservatie/show.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/reservatie_tafel/_delete_form.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/reservatie_tafel/_form.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/reservatie_tafel/edit.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/reservatie_tafel/index.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/reservatie_tafel/new.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/reservatie_tafel/show.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/reserveren/index.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/tafel/_delete_form.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/tafel/_form.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/tafel/edit.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/tafel/index.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/tafel/new.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/tafel/show.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/tijden/_delete_form.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/tijden/_form.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/tijden/edit.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/tijden/index.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/tijden/new.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/tijden/show.html.twig" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,102 +98,6 @@
     <execution>
       <executable />
     </execution>
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Controller/CartController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="385">
-              <caret line="72" column="1" selection-start-line="72" selection-start-column="1" selection-end-line="72" selection-end-column="1" />
-              <folding>
-                <element signature="e#1984#2011#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.env">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="35" selection-start-line="35" selection-end-line="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Controller/ReservatieTafelController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="317">
-              <caret line="153" selection-start-line="153" selection-end-line="153" />
-              <folding>
-                <element signature="e#34#65#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/reservatie_tafel/index.html.twig">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/emails/reservatie.txt.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/emails/checkout.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="799">
-              <caret line="47" selection-start-line="47" selection-end-line="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Entity/Categorie.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="269">
-              <caret line="85" column="5" selection-start-line="85" selection-start-column="5" selection-end-line="85" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Entity/Product.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="269">
-              <caret line="137" column="5" selection-start-line="137" selection-start-column="5" selection-end-line="137" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/templates/cart/index.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-40">
-              <caret line="30" column="25" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/cart/checkout.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -124,63 +113,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/templates/tafel/show.html.twig" />
-        <option value="$PROJECT_DIR$/templates/tafel/index.html.twig" />
-        <option value="$PROJECT_DIR$/templates/tijden/index.html.twig" />
-        <option value="$PROJECT_DIR$/templates/tijden/show.html.twig" />
-        <option value="$PROJECT_DIR$/templates/user/index.html.twig" />
-        <option value="$PROJECT_DIR$/templates/user/show.html.twig" />
-        <option value="$PROJECT_DIR$/templates/bank_cart/edit.html.twig" />
-        <option value="$PROJECT_DIR$/src/Entity/Reservatie.php" />
-        <option value="$PROJECT_DIR$/src/Entity/Tafel.php" />
-        <option value="$PROJECT_DIR$/src/Form/ReservatieType.php" />
-        <option value="$PROJECT_DIR$/templates/bank_cart/_form.html.twig" />
-        <option value="$PROJECT_DIR$/templates/categorie/_form.html.twig" />
-        <option value="$PROJECT_DIR$/templates/menu/_form.html.twig" />
-        <option value="$PROJECT_DIR$/templates/product/_form.html.twig" />
-        <option value="$PROJECT_DIR$/templates/reservatie/_form.html.twig" />
-        <option value="$PROJECT_DIR$/templates/reservatie_tafel/_form.html.twig" />
-        <option value="$PROJECT_DIR$/templates/tafel/_form.html.twig" />
-        <option value="$PROJECT_DIR$/templates/tijden/_form.html.twig" />
-        <option value="$PROJECT_DIR$/templates/user/_form.html.twig" />
-        <option value="$PROJECT_DIR$/src/Repository/ProductRepository.php" />
-        <option value="$PROJECT_DIR$/templates/categorie/show.html.twig" />
-        <option value="$PROJECT_DIR$/templates/menu/index.html.twig" />
-        <option value="$PROJECT_DIR$/templates/menu/show.html.twig" />
-        <option value="$PROJECT_DIR$/templates/product/show.html.twig" />
-        <option value="$PROJECT_DIR$/config/translations/KnpPaginatorBundle.en.yml" />
-        <option value="$PROJECT_DIR$/config/packages/framework.yaml" />
-        <option value="$PROJECT_DIR$/config/packages/paginator.yaml" />
-        <option value="$PROJECT_DIR$/vendor/knplabs/knp-paginator-bundle/templates/Pagination/twitter_bootstrap_v3_pagination.html.twig" />
-        <option value="$PROJECT_DIR$/config/packages/twig.yaml" />
-        <option value="$PROJECT_DIR$/src/Repository/ReservatieTafelRepository.php" />
-        <option value="$PROJECT_DIR$/src/Repository/ReservatieRepository.php" />
-        <option value="$PROJECT_DIR$/src/Repository/TafelRepository.php" />
-        <option value="$PROJECT_DIR$/src/Entity/ReservatieTafel.php" />
-        <option value="$PROJECT_DIR$/templates/reserveren/index.html.twig" />
-        <option value="$PROJECT_DIR$/src/Controller/ReservatieController.php" />
-        <option value="$PROJECT_DIR$/templates/reservatie_tafel/email.txt.twig" />
-        <option value="$PROJECT_DIR$/templates/base.html.twig" />
-        <option value="$PROJECT_DIR$/src/Form/CheckoutFormType.php" />
-        <option value="$PROJECT_DIR$/src/Controller/CategorieController.php" />
-        <option value="$PROJECT_DIR$/templates/categorie/index.html.twig" />
-        <option value="$PROJECT_DIR$/templates/product/index.html.twig" />
-        <option value="$PROJECT_DIR$/src/Controller/ProductController.php" />
-        <option value="$PROJECT_DIR$/.env" />
-        <option value="$PROJECT_DIR$/templates/homepage/index.html.twig" />
-        <option value="$PROJECT_DIR$/src/Controller/CartController.php" />
-        <option value="$PROJECT_DIR$/templates/cart/checkout.html.twig" />
-        <option value="$PROJECT_DIR$/src/Controller/ReservatieTafelController.php" />
-        <option value="$PROJECT_DIR$/src/Entity/Categorie.php" />
-        <option value="$PROJECT_DIR$/src/Entity/Product.php" />
-        <option value="$PROJECT_DIR$/templates/cart/index.html.twig" />
-        <option value="$PROJECT_DIR$/templates/emails/checkout.html.twig" />
-      </list>
-    </option>
   </component>
   <component name="PhpServers">
     <servers />
@@ -298,58 +230,12 @@
       <path value="$PROJECT_DIR$/vendor/webmozart/assert" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="952" />
-    <option name="width" value="977" />
-    <option name="height" value="1038" />
-  </component>
+  <component name="ProjectId" id="1WkZEb3ORLSx17TrADcLr6EbxbJ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="LucaRestaurant" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LucaRestaurant" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LucaRestaurant" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LucaRestaurant" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LucaRestaurant" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LucaRestaurant" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LucaRestaurant" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LucaRestaurant" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="cart" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LucaRestaurant" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LucaRestaurant" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="emails" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LucaRestaurant" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LucaRestaurant" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="reservatie_tafel" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -368,15 +254,15 @@
       <recent name="D:\xampp\htdocs\unit4\Restaurant\templates\bundles" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
+  <component name="ServiceViewManager">
+    <option name="viewStates">
       <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
       </list>
     </option>
   </component>
@@ -398,414 +284,17 @@
       <workItem from="1579254541154" duration="16684000" />
       <workItem from="1579616749209" duration="10082000" />
       <workItem from="1579655399512" duration="3362000" />
+      <workItem from="1579695447122" duration="2029000" />
     </task>
     <servers />
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="108857000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="762" y="0" width="781" height="830" extended-state="0" />
-    <layout>
-      <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.23023579" />
-      <window_info id="Structure" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Event Log" order="0" sideWeight="0.5021322" side_tool="true" weight="0.32936078" />
-      <window_info anchor="bottom" id="Version Control" order="1" />
-      <window_info anchor="bottom" id="Terminal" order="2" sideWeight="0.4978678" visible="true" weight="0.33094555" />
-      <window_info anchor="bottom" id="Message" order="3" />
-      <window_info anchor="bottom" id="Find" order="4" weight="0.32808024" />
-      <window_info anchor="bottom" id="Run" order="5" />
-      <window_info anchor="bottom" id="Debug" order="6" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="9" />
-      <window_info anchor="right" id="Database" order="0" />
-      <window_info anchor="right" id="Commander" order="1" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
-    </layout>
-    <layout-to-restore>
-      <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.26812366" />
-      <window_info id="Structure" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Event Log" order="0" sideWeight="0.5021322" side_tool="true" weight="0.32936078" />
-      <window_info anchor="bottom" id="Version Control" order="1" />
-      <window_info anchor="bottom" id="Terminal" order="2" sideWeight="0.4978678" visible="true" weight="0.32827735" />
-      <window_info anchor="bottom" id="Message" order="3" />
-      <window_info anchor="bottom" id="Find" order="4" />
-      <window_info anchor="bottom" id="Run" order="5" />
-      <window_info anchor="bottom" id="Debug" order="6" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="9" />
-      <window_info anchor="right" id="Database" order="0" />
-      <window_info anchor="right" id="Commander" order="1" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/src/Form/ReservatieType.php</url>
-          <line>4</line>
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/templates/reservatie/_form.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="34" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/categorie/edit.html.twig">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/categorie/_form.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="34" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/categorie/_delete_form.html.twig">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Repository/ProductRepository.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-          <folding>
-            <element signature="e#34#57#0#PHP" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/categorie/show.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/menu/show.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="31" lean-forward="true" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/menu/_form.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="34" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/menu/index.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="31" lean-forward="true" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controller/HomepageController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes/dev/twig.yaml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/bundles.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/bootstrap.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/bundles/FOSUserBundle/layout.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-102" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/services.yaml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/translations/KnpPaginatorBundle.en.yml" />
-    <entry file="file://$PROJECT_DIR$/config/packages/framework.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="10" selection-start-column="10" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/packages/paginator.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="89" selection-start-line="11" selection-start-column="89" selection-end-line="11" selection-end-column="89" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/knplabs/knp-paginator-bundle/templates/Pagination/twitter_bootstrap_v3_pagination.html.twig" />
-    <entry file="file://$PROJECT_DIR$/templates/product/show.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="15" column="47" selection-start-line="15" selection-start-column="47" selection-end-line="15" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/packages/twig.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="49" selection-start-line="8" selection-start-column="49" selection-end-line="8" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Repository/TafelRepository.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Entity/Reservatie.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-459">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Entity/ReservatieTafel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="433">
-          <caret line="57" column="5" selection-start-line="57" selection-start-column="5" selection-end-line="57" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Repository/ReservatieTafelRepository.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/contact/email.txt.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controller/ContactController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="41" column="12" selection-start-line="41" selection-start-column="12" selection-end-line="41" selection-end-column="49" />
-          <folding>
-            <element signature="e#34#99#0#PHP" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Repository/ReservatieRepository.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="31" column="44" selection-start-line="31" selection-start-column="44" selection-end-line="31" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/reservatie/index.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="32" lean-forward="true" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/reserveren/index.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="14" lean-forward="true" selection-end-line="27" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Form/CheckoutFormType.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="1" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
-          <folding>
-            <element signature="e#28#68#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Entity/Menu.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-170">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/categorie/index.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="371">
-          <caret line="29" column="17" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
-          <folding>
-            <element signature="e#757#780#0#Twig" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/base.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="36" column="70" selection-start-line="36" selection-start-column="70" selection-end-line="36" selection-end-column="70" />
-          <folding>
-            <element signature="e#2234#2253#0#Twig" expanded="true" />
-            <element signature="e#2455#2470#0#Twig" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controller/TafelController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-383">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/contact/index.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="14" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controller/CategorieController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controller/ProductController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2516">
-          <caret line="157" column="133" selection-start-line="157" selection-start-column="133" selection-end-line="157" selection-end-column="133" />
-          <folding>
-            <element signature="e#34#57#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controller/ReservatieController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="30" column="80" selection-start-line="30" selection-start-column="80" selection-end-line="30" selection-end-column="80" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/product/index.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="103" selection-start-line="27" selection-start-column="100" selection-end-line="27" selection-end-column="103" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/homepage/index.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-323">
-          <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
-          <folding>
-            <element signature="e#12#26#0#Twig" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/emails/reservatie.txt.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/reservatie_tafel/index.html.twig">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controller/ReservatieTafelController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="153" selection-start-line="153" selection-end-line="153" />
-          <folding>
-            <element signature="e#34#65#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Entity/Categorie.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="85" column="5" selection-start-line="85" selection-start-column="5" selection-end-line="85" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Entity/Product.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="137" column="5" selection-start-line="137" selection-start-column="5" selection-end-line="137" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controller/CartController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="385">
-          <caret line="72" column="1" selection-start-line="72" selection-start-column="1" selection-end-line="72" selection-end-column="1" />
-          <folding>
-            <element signature="e#1984#2011#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="35" selection-start-line="35" selection-end-line="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/emails/checkout.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="799">
-          <caret line="47" selection-start-line="47" selection-end-line="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/cart/checkout.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/cart/index.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-40">
-          <caret line="30" column="25" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
+  <component name="WindowStateProjectService">
+    <state x="348" y="321" key="com.intellij.ide.util.TipDialog" timestamp="1579695447337">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="348" y="321" key="com.intellij.ide.util.TipDialog/0.0.1280.984@0.0.1280.984" timestamp="1579695447337" />
   </component>
 </project>
