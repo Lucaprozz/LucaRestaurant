@@ -1,0 +1,30 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Reservatie{% endblock %}
+
+{% block body %}
+    <h1>Reservatie</h1>
+
+    <table class="table" style="color: white">
+        <tbody>
+            <tr>
+                <th>Id</th>
+                <td>{{ reservatie.id }}</td>
+            </tr>
+            <tr>
+                <th>Datum_tijd</th>
+                <td>{{ reservatie.datumTijd ? reservatie.datumTijd|date('Y-m-d H:i:s') : '' }}</td>
+            </tr>
+            <tr>
+                <th>Aantal</th>
+                <td>{{ reservatie.aantal }}</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <a href="{{ path('reservatie_index') }}">back to list</a>
+
+    <a href="{{ path('reservatie_edit', {'id': reservatie.id}) }}">edit</a>
+
+    {{ include('reservatie/_delete_form.html.twig') }}
+{% endblock %}

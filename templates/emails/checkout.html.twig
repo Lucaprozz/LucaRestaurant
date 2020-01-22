@@ -1,0 +1,47 @@
+<p>Bedrijf: Excellent Taste</p>
+<p>Locatie: Den Haag</p>
+<p>Datum: {{ "now"|date('Y-m-d H:i:s') }}</p>
+<br>
+<h3 >Hallo {{ Naam }}</h3>
+
+<p>Wij hopen dat alles naar wens is geweest</p>
+<p>Hier is uw factuur</p>
+
+<table border="2" style="border-color:black; text-align: center; font-family: Helvetica">
+    <tr style="padding:2px;">
+        <th>Categorie</th>
+        <th>Omschrijving</th>
+        <th>Aantal</th>
+        <th>Prijs</th>
+    </tr>
+    {% set totalPrice = 0 %}
+    {% for product in Products %}
+        <tr style="padding:2px; ">
+            <td>
+                {{ product.Product.categorieid }}
+            </td>
+            <td>
+                {{ product.Product.omschrijving|raw }}
+            </td>
+            <td>
+                {{ product.Aantal }}
+            </td>
+            <td>
+                € {{ product.Product.Prijs }}
+            </td>
+        </tr>
+        {% set totalPrice = totalPrice + (product.Aantal * product.Product.Prijs)|number_format(2, '.', ',') %}
+    {% else %}
+        <tr>
+            <td colspan="6">no records found</td>
+        </tr>
+    {% endfor %}
+    {% if totalPrice != null %}
+        <tr style="padding:2px; ">
+            <td colspan="3"></td>
+            <th colspan="2">Totaal prijs € {{ totalPrice }}</th>
+        </tr>
+    {% endif %}
+</table>
+
+<p>Wij zien u graag terug tot de volgende keer!</p>

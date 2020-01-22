@@ -1,0 +1,86 @@
+{% extends "@FOSUser/layout.html.twig" %}
+
+{% block fos_user_content %}
+    {% trans_default_domain 'FOSUserBundle' %}
+
+    <h3 class="login-heading mb-4" style="text-align: center">Register now!</h3>
+    {{ form_start(form, {'method': 'post', 'action': path('fos_user_registration_register')}) }}
+    <div style="display: flex; flex-wrap: wrap; align-items: center; justify-content: center;">
+        <div class="form-group form-label-group" style="width: 25%; margin: 0 5%">
+            {# <label for="fos_user_registration_form_username">Email address</label> #}
+            <h4 class="register-heading mb-2">Username</h4>
+            {{ form_widget(form.username, {'attr': {'id': 'fos_user_registration_form_username', 'name': 'fos_user_registration_form_username', 'class': 'form-control', 'placeholder': 'Username'} }) }}
+        </div>
+
+        <div class="form-group form-label-group" style="width: 25%; margin: 0 5%">
+            <h4 class="register-heading mb-2">Email</h4>
+            {{ form_widget(form.email, {'attr': {'id': 'email', 'class': 'form-control', 'placeholder': 'Email'} }) }}
+        </div>
+
+        <div class="form-group form-label-group" style="width: 25%; margin: 0 5%">
+            <h4 class="register-heading mb-2">Password</h4>
+            {{ form_widget(form.plainPassword.first, {'attr': {'id': 'plainPassword.first', 'class': 'form-control', 'placeholder': 'Password'} }) }}
+        </div>
+
+        <div class="form-group form-label-group" style="width: 25%; margin: 0 5%">
+            <h4 class="register-heading mb-2">Repeat Password</h4>
+            {{ form_widget(form.plainPassword.second, {'attr': {'id': 'plainPassword.second', 'class': 'form-control', 'placeholder': 'Repeat Password'} }) }}
+        </div>
+
+        <div class="form-group form-label-group" style="width: 25%; margin: 0 5%">
+            <h4 class="register-heading mb-2">Telephone number</h4>
+            {{ form_widget(form.telnr, {'attr': {'id': 'telnr', 'class': 'form-control', 'placeholder': 'Telephone number'} }) }}
+        </div>
+
+        <div class="form-group form-label-group" style="width: 25%; margin: 0 5%">
+            <h4 class="register-heading mb-2">Mobile Number</h4>
+            {{ form_widget(form.mobilenr, {'attr': {'id': 'mobilenr', 'class': 'form-control', 'placeholder': 'Mobile number'} }) }}
+        </div>
+
+        <div class="form-group form-label-group" style="width: 25%; margin: 0 5%">
+            <h4 class="register-heading mb-2">First name</h4>
+            {{ form_widget(form.firstname, {'attr': {'id': 'firstname', 'class': 'form-control', 'placeholder': 'First name'} }) }}
+        </div>
+
+        <div class="form-group form-label-group" style="width: 25%; margin: 0 5%">
+            <h4 class="register-heading mb-2">Insertion name</h4>
+            {{ form_widget(form.insertionname, {'attr': {'id': 'insertionname', 'class': 'form-control', 'placeholder': 'Insertion name'} }) }}
+        </div>
+
+        <div class="form-group form-label-group" style="width: 25%; margin: 0 5%">
+            <h4 class="register-heading mb-2">Last name</h4>
+            {{ form_widget(form.lastname, {'attr': {'id': 'lastname', 'class': 'form-control', 'placeholder': 'Last name'} }) }}
+        </div>
+
+        <div class="form-group form-label-group" style="width: 25%; margin: 0 5%">
+            <h4 class="register-heading mb-2">Address</h4>
+            {{ form_widget(form.adres, {'attr': {'id': 'adres', 'class': 'form-control', 'placeholder': 'Address'} }) }}
+        </div>
+
+        <div class="form-group form-label-group" style="width: 25%; margin: 0 5%">
+            <h4 class="register-heading mb-2">Zip</h4>
+            {{ form_widget(form.zip, {'attr': {'id': 'zip', 'class': 'form-control', 'placeholder': 'Zip'} }) }}
+        </div>
+
+        <div class="form-group form-label-group" style="width: 25%; margin: 0 5%">
+            <h4 class="register-heading mb-2">City</h4>
+            {{ form_widget(form.city, {'attr': {'id': 'city', 'class': 'form-control', 'placeholder': 'City'} }) }}
+        </div>
+
+        <div class="form-group form-label-group" style="width: 25%; margin: 0 5%">
+            <h4 class="register-heading mb-2">Country</h4>
+            {{ form_widget(form.country, {'attr': {'id': 'country', 'class': 'form-control', 'placeholder': 'Country'} }) }}
+        </div>
+
+
+        <div style="width: 100%; display: flex; justify-content:center">
+            <div class="form-group form-label-group" style="width: 25%;">
+                <br>
+                <input type="submit" id="_submit" name="_submit" class="btn btn-lg btn-primary btn-block btn-login text-uppercase font-weight-bold mb-2" value="Create account">
+            </div>
+        </div>
+        <p class="text-center">Already have an account? <a class="btn btn-sm btn-primary btn-login text-uppercase font-weight-bold" href="/login">Login</a> </p>
+    </div>
+    {{ form_end(form) }}
+
+{% endblock fos_user_content %}

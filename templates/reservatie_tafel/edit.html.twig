@@ -1,0 +1,13 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Edit ReservatieTafel{% endblock %}
+
+{% block body %}
+    <h1>Edit ReservatieTafel</h1>
+
+    {{ include('reservatie_tafel/_form.html.twig', {'button_label': 'Update'}) }}
+
+    <a href="{{ path('reservatie_tafel_index') }}">back to list</a>
+
+    {{ include('reservatie_tafel/_delete_form.html.twig') }}
+{% endblock %}
